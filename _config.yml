@@ -3,18 +3,18 @@ course_name: Natural Language Processing
 course_description: "Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications."
 course_semester: "Fall 2025"
 
-baseurl: "/jekyll-course-website-template" # the subpath of your site, e.g. /blog/
-url: "https://rohancsalvi.github.io/uic_cs_421.github.io/" # the base hostname & protocol for your site
+# GitHub Pages config (project site)
+url: "https://rohancsalvi.github.io"          # ← domain ONLY
+baseurl: "/uic_cs_421.github.io"              # ← repo name with leading slash
 
 schoolname: "UIC"
 schoolurl: "https://uic.edu"
 
 address: |
-    Computer Science
-    University of Illinois, Chicago
-    USA
+  Computer Science
+  University of Illinois, Chicago
+  USA
 
-# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
 
 ### Do not change the followings unless you know what you are doing ###
@@ -33,15 +33,14 @@ dateformat: "%m/%d/%Y"
 
 future: true
 collections:
-    events:
-        output: true
-    lectures:
-        output: true
-    assignments:
-        output: true
-    announcements:
-        output: false
-
+  events:
+    output: true
+  lectures:
+    output: true
+  assignments:
+    output: true
+  announcements:
+    output: false
 
 defaults:
   - scope:
