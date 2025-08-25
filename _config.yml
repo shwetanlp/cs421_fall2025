@@ -16,7 +16,7 @@ course_semester: "Fall 2025"
 
 # GitHub Pages config (project site)
 url: "https://shwetanlp.github.io"          # ← domain ONLY
-baseurl: "teaching/cs421_fall2025"              # ← repo name with leading slash
+baseurl: "/teaching/cs421_fall2025"              # ← repo name with leading slash
 
 schoolname: "UIC"
 schoolurl: "https://uic.blackboard.com/"
