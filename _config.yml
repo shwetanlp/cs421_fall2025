@@ -1,6 +1,17 @@
 # Site settings
 course_name: Natural Language Processing
-course_description: "Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications."
+ourse_description: >
+  In this course, students will be introduced to fundamental statistical and neural methods for
+  language processing. The key topics to be covered are text pre-processing, text classification,
+  named entity recognition, parts-of-speech tagging, lexical semantics, parsing, word sense
+  disambiguation, semantic role labeling, coreference resolution, machine translation,
+  conversational agents, and text generation.
+
+  Students will also get an overview of numerous machine learning and deep learning algorithms
+  necessary for efficiently solving language processing tasks. Furthermore, discussing these topics
+  with relevant use cases will allow them to effectively implement these algorithms and convey
+  their findings to both technical and lay audiences. Finally, the students will learn to evaluate
+  natural language processing tools for specific problems using a variety of evaluation measures.
 course_semester: "Fall 2025"
 
 # GitHub Pages config (project site)
