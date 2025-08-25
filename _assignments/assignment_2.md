@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2025-09-30T00:00:00+04:30
+date: 2025-10-01T00:00:00+04:30
 title: "Assignment 2: Text Classification"
 
 pdf: /static_files/assignments/assign_02.pdf
