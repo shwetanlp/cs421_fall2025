@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2025-09-11T00:00:00+04:30
+date: 2025-09-12T00:00:00+04:30
 title: "Assignment 1: Sequence Labelling"
 
 pdf: /static_files/assignments/assign_01.pdf
