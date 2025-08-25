@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grading Policies
-permalink: /grading/
+permalink: /policy/
 ---
 
 {% include image.html url="/_images/grading.jpg" width=200 align="right" %}
