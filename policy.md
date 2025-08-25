@@ -4,10 +4,6 @@ title: Grading Policies
 permalink: /policy/
 ---
 
-{% include image.html url="/_images/grading.jpg" width=200 align="right" %}
-
-# Grading Policies  
-
 ## Gradescope Assignments  
 There will be **4 assignments** containing a mix of theoretical and coding questions.  
 
