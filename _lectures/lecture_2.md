@@ -5,4 +5,5 @@ title: Lecture 02
 tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
 ---
-**Suggested Readings:** N.A
+**Suggested Readings:**
+- [Readings 1](http://example.com)
