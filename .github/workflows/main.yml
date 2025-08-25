@@ -1,0 +1,48 @@
+name: Build and Deploy Course to Personal Site
+
+on:
+  push:
+    branches:
+      - main  # your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout course repo
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+
+      - name: Install Jekyll
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Checkout personal site repo
+        uses: actions/checkout@v3
+        with:
+          repository: shwetanlp/shwetanlp.github.io
+          path: personal-site
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Copy built site
+        run: |
+          rm -rf personal-site/teaching/cs421_fall2025/*
+          cp -R _site/* personal-site/teaching/cs421_fall2025/
+
+      - name: Commit & Push changes
+        run: |
+          cd personal-site
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update course site from GitHub Action" || echo "No changes"
+          git push
