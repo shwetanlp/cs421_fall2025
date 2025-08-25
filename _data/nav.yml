@@ -25,4 +25,4 @@ items:
 
 - url: /policy/
   name: Grade Policy
-  icon_class: fas fa-book
+  icon_class: fas fa-clipboard-check
