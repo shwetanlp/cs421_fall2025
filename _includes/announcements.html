@@ -1,4 +1,4 @@
-{% assign all_events = site.events | concat: site.lectures %}
+<!--{% assign all_events = site.events | concat: site.lectures %}
 {% assign all_events = all_events | concat: site.assignments %}
 
 {% assign events_to_show = "" | split: "" %}
@@ -33,4 +33,25 @@
     {% endfor %}
 </ul>
 {% endif %}
+</div> -->
+{%- comment -%} Only show items from _announcement collection {%- endcomment -%}
+{%- assign announcements = site.announcement | sort: "date" | reverse -%}
+
+{%- if announcements.size > 0 -%}
+<div class="announcement-box" style="margin-top:30px">
+  <h2>Announcements</h2>
+  <ul>
+    {%- for a in announcements limit:7 -%}
+      <li class="no-p-margin">
+        <a href="{{ a.url | relative_url }}">{{ a.title | default: "Announcement" }}</a>
+        <span class="muted"> — {{ a.date | date: "%b %d, %Y" }}</span>
+        {%- if a.description -%}
+          <div>{{ a.description }}</div>
+        {%- else -%}
+          <div>{{ a.excerpt | strip_html | truncate: 180 }}</div>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
+{%- endif -%}
