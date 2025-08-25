@@ -19,7 +19,7 @@ url: "https://rohancsalvi.github.io"          # ← domain ONLY
 baseurl: "/uic_cs_421.github.io"              # ← repo name with leading slash
 
 schoolname: "UIC"
-schoolurl: "https://uic.edu"
+schoolurl: "https://uic.blackboard.com/"
 
 address: |
   Department of Computer Science
