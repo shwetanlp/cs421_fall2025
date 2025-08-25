@@ -23,6 +23,6 @@ items:
   name: Materials
   icon_class: fas fa-book
 
-- url: "{{ '/policy/' | relative_url }}"
+- url: /policy/
   name: Grade Policy
   icon_class: fas fa-book
