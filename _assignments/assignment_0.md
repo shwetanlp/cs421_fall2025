@@ -10,7 +10,7 @@ hide_from_announcments: false
 
 due_event: 
   type: due
-  date: 2025-09-02T23:59:00+04:30
+  date: 2025-09-05T23:59:00+04:30
   description: "Assignment 0 due"
 ---
 
