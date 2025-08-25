@@ -33,7 +33,8 @@
     {% endfor %}
 </ul>
 {% endif %}
-</div> -->
+</div>
+
 {%- comment -%} Only show items from _announcement collection {%- endcomment -%}
 {%- assign announcements = site.announcements | sort: "date" | reverse -%}
 
@@ -50,6 +51,25 @@
         {%- else -%}
           <div>{{ a.excerpt | strip_html | truncate: 180 }}</div>
         {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+{%- endif -%}
+ -->
+
+
+{%- comment -%} Only show items from _announcements (adjust to site.announcement if singular) {%- endcomment -%}
+{%- assign announcements = site.announcements | sort: "date" | reverse -%}
+
+{%- if announcements.size > 0 -%}
+<div class="announcement-box" style="margin-top:30px">
+  <h2>Announcements</h2>
+  <ul>
+    {%- for a in announcements limit:7 -%}
+      <li class="no-p-margin">
+        {%- assign text = a.description | default: a.excerpt | default: a.content -%}
+        {{ text | strip_html | truncate: 180 }}
       </li>
     {%- endfor -%}
   </ul>
