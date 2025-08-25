@@ -3,8 +3,8 @@ type: assignment
 date: 2025-08-26T00:00:00+04:30
 title: "Assignment 0: Python Programming"
 
-pdf: -
-attachment: -
+pdf: /static_files/assignments/assign_01.pdf
+attachment: /static_files/assignments/assign_01_materials.zip
 
 hide_from_announcments: false
 
