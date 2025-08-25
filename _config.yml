@@ -1,6 +1,6 @@
 # Site settings
 course_name: Natural Language Processing
-ourse_description: >
+course_description: >
   In this course, students will be introduced to fundamental statistical and neural methods for
   language processing. The key topics to be covered are text pre-processing, text classification,
   named entity recognition, parts-of-speech tagging, lexical semantics, parsing, word sense
