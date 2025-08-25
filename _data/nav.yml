@@ -23,9 +23,6 @@ items:
   name: Materials
   icon_class: fas fa-book
 
-# - url: /policy/
-#   name: Grade Policy
-#   icon_class: fas fa-book
-- url: "{{ '/grading/' | relative_url }}"
+- url: "{{ '/policy/' | relative_url }}"
   name: Grade Policy
   icon_class: fas fa-book
