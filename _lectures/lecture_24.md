@@ -6,4 +6,5 @@ tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
 ---
 **Suggested Readings:**
-- TBD
+- [Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/abs/1704.04368.pdf)
+  
