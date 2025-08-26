@@ -8,9 +8,7 @@ course_description: >
   conversational agents, and text generation.
 
   Students will also get an overview of numerous machine learning and deep learning algorithms
-  necessary for efficiently solving language processing tasks. Furthermore, discussing these topics
-  with relevant use cases will allow them to effectively implement these algorithms and convey
-  their findings to both technical and lay audiences. Finally, the students will learn to evaluate
+  necessary for efficiently solving language processing tasks. Finally, the students will learn to evaluate
   natural language processing tools for specific problems using a variety of evaluation measures.
 course_semester: "Fall 2025"
 
