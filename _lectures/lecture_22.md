@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-11-6T12:30:00
-title: Coherence & Question Answering
+title: Question Answering
 tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
 ---
