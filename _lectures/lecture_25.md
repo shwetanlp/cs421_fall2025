@@ -6,4 +6,6 @@ tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
 ---
 **Suggested Readings:**
-- TBD
+- [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020)
+- [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks[(https://arxiv.org/pdf/1908.02265)
+
