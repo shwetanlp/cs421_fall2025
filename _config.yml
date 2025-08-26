@@ -5,11 +5,8 @@ course_description: >
   language processing. The key topics to be covered are text pre-processing, text classification,
   named entity recognition, parts-of-speech tagging, lexical semantics, parsing, word sense
   disambiguation, semantic role labeling, coreference resolution, machine translation,
-  conversational agents, and text generation.
-
-  Students will also get an overview of numerous machine learning and deep learning algorithms
-  necessary for efficiently solving language processing tasks. Finally, the students will learn to evaluate
-  natural language processing tools for specific problems using a variety of evaluation measures.
+  conversational agents, and text generation. Students will also get an overview of numerous machine learning and deep learning algorithms
+  necessary for efficiently solving and evaluating language processing tasks.
 course_semester: "Fall 2025"
 
 # GitHub Pages config (project site)
