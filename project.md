@@ -12,7 +12,7 @@ The project can be done individually or in pairs. Deliverables include a reprodu
 ## Project Guidelines
 - **Research Paper Selection**
   - Choose an ACL/NAACL 2025 NLP paper.
-  - Submit details in the provided Excel sheet (first-come, first-served). Excel Link: TBD
+  - Submit details in the provided [Excel sheet](https://docs.google.com/spreadsheets/d/1CtquSNFH247aRQMg06BF3eeoyOtgSdFO_kMil1Uls14/edit?usp=sharing) (first-come, first-served).
   - Must follow the [NLP Reproducibility Checklist (Dodge et al., 2019)](https://aclanthology.org/2023.findings-acl.809.pdf).
 
 - **Research Study**
@@ -29,7 +29,7 @@ The project can be done individually or in pairs. Deliverables include a reprodu
   - Report must describe compromises and impacts on reproducibility.
 
 ## Deadlines & Milestones
-- **Paper Selection**: TBD
+- **Paper Selection**: September 22, 2025 (11:59 PM CST)
 - **Research Presentation**:  
   - Presentations: TBD
 - **Report Submission**: TBD
