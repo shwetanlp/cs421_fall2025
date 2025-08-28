@@ -9,7 +9,7 @@ permalink: /project/
 Graduate students will conduct a research reproducibility and evaluation project focused on replicating results from an existing NLP research paper (ACL/NAACL 2025).  
 The project can be done individually or in pairs. Deliverables include a reproducibility report, source code, and a presentation.
 
-## Key Components
+## Project Guidelines
 - **Research Paper Selection**
   - Choose an ACL/NAACL 2025 NLP paper.
   - Submit details in the provided Excel sheet (first-come, first-served). Excel Link: TBD
