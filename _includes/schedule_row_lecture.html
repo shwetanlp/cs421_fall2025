@@ -1,11 +1,4 @@
-<!--<div class="col col-1" data-label="Event">Lecture</div>-->
-<!--<div class="col col-1" data-label="Event">
-  {% if include.lecture_index %}
-    Lecture {{ include.lecture_index }}
-  {% else %}
-    Lecture
-  {% endif %}
-</div>
+<div class="col col-1" data-label="Event">Lecture</div>
 <div class="col col-1-2" data-label="Date">
     {{ include.event.date | date: site.dateformat }}
     <br class="date-spliter"/>{{ include.event.date | date: "%A" }}
@@ -25,13 +18,13 @@
             endif %}</li>
 
         {% endfor %}
-    </ul>
+    </ul>-->
     {% endif %} 
     {% if include.event.content != '' %}
     {{ event.content }}
     {% endif %}
-</div>-->
-<div class="col col-1" data-label="Event">
+</div>
+<!--<div class="col col-1" data-label="Event">
   {% if include.lecture_index %}
     Lecture {{ include.lecture_index }}
   {% else %}
@@ -51,7 +44,7 @@
 <div class="col col-4 markdown-content" data-label="Course Material">
     {% unless include.hide_content %}
       {% if include.event.content != '' %}
-        {{ include.event.content }}
+        {{ include.event.content }}-->
       {% endif %}
     {% endunless %}
-</div>
+</div>-->
