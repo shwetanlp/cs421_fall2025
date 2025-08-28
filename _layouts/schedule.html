@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header class="post-header">
+<!--<header class="post-header">
     <h1 class="post-title">Schedule</h1>
 </header>
 
@@ -30,5 +30,49 @@ layout: default
         </li>
         {% endfor %}
 
+    </ul>
+</div>-->
+<header class="post-header">
+    <h1 class="post-title">Schedule</h1>
+</header>
+
+{{ content }}
+
+<div class="home" style="font-size: 0.8em;">
+
+    {% comment %}
+    Build event lists
+    {% endcomment %}
+    {% assign all_assignment_dues = site.assignments | map: "due_event" %}
+    {% assign all_events = site.events | concat: site.lectures %}
+    {% assign all_events = all_events | concat: site.assignments %}
+    {% assign all_events = all_events | concat: all_assignment_dues %}
+    {% assign all_events_sorted = all_events | sort: 'date' %}
+
+    <ul class="responsive-table" style="margin-left: 0;">
+        <li class="table-header">
+            <div class="col col-1">Event</div>
+            <div class="col col-1-2">Date</div>
+            <div class="col col-2">Description</div>
+            <div class="col col-4">Course Material</div>
+        </li>
+
+        {% assign lecture_counter = 0 %}
+
+        {% for event in all_events_sorted %}
+            {% if event.type == "lecture" %}
+                {% assign lecture_counter = lecture_counter | plus: 1 %}
+                <li class="table-row table-row-lecture">
+                    <div class="col col-1">Lecture {{ lecture_counter }}</div>
+                    <div class="col col-1-2">{{ event.date | date: "%b %d, %Y" }}</div>
+                    <div class="col col-2">{{ event.title }}</div>
+                    <div class="col col-4">—</div>
+                </li>
+            {% else %}
+                <li class="table-row table-row-{{ event.type}}">
+                    {% include schedule_row_{{ event.type }}.html event=event %}
+                </li>
+            {% endif %}
+        {% endfor %}
     </ul>
 </div>
