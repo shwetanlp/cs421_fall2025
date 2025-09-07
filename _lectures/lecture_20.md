@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-10-30T12:30:00
+date: 2025-10-28T12:30:00
 title: Dialogue Systems
 tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
