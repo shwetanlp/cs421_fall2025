@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-10-23T12:30:00
+date: 2025-10-30T12:30:00
 title: Semantic Role Labeling
 tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
