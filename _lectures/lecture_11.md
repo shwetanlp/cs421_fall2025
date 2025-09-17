@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-09-30T12:30:00
+date: 2025-09-25T12:30:00
 title: Text Classification
 tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
