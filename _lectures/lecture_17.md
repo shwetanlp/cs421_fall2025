@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-10-21T12:30:00
+date: 2025-10-23T12:30:00
 title: Word Sense Disambiguation
 tldr: "N.A"
 thumbnail: /static_files/presentations/lec.jpg
