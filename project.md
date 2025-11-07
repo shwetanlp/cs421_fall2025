@@ -30,9 +30,10 @@ The project can be done individually or in pairs. Deliverables include a reprodu
 
 ## Deadlines & Milestones
 - **Paper Selection**: September 22, 2025 (11:59 PM CST)
-- **Research Presentation**:  
-  - Presentations: TBD
-- **Report Submission**: TBD
-- **Source Code Submission**: TBD
+- **Research Presentation**:
+  - Slides Due: November 25, 2025 (12:00 PM (Noon) CST)
+  - Presentations: November 25, 2025, December 2, and December 4, 2025
+- **Report Submission**: December 5, 2025
+- **Source Code Submission**: December 5, 2025
 
 
